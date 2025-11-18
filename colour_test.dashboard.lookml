@@ -1,10 +1,10 @@
-- dashboard: colour_test
-  title: Colour Test
+- dashboard: color_test
+  title: Color Test
   layout: newspaper
   preferred_viewer: dashboards-next
   tile_size: 100
   elements:
-  - name: 'colour_test'
+  - name: 'color_test'
     title: 'Color Test'
     model: cm_2518_test
     explore: salary
