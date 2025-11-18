@@ -36,6 +36,10 @@
     label_density: 25
     x_axis_scale: auto
     y_axis_combined: true
+    series_colors:
+      Dept id  - 2 - dept_name: "#B2DBE0"
+      Dept id - 3 - dept_name: "#5AB1BB"
+      Dept id - 8 - dept_name: "#088A9A"
     ordering: none
     show_null_labels: false
     show_totals_labels: false
