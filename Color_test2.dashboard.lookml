@@ -7,8 +7,8 @@
   filters:
 
   elements:
-  - name: add_a_unique_name_1763517915
-    title: Untitled Visualization
+  - name: color_test2
+    title: Color Test2
     model: cm_2518_test
     explore: salary
     type: looker_column
