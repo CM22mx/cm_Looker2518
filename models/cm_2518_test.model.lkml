@@ -5,6 +5,7 @@ include: "/views/**/*.view.lkml"
 include: "/dashboards/*.dashboard.lookml"
 include: "/color_test.dashboard.lookml"
 include: "/color_dashboard.dashboard.lookml"
+include: "/new_lkml_color_test.dashboard.lookml"
 
 datagroup: cm_2518_test_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
