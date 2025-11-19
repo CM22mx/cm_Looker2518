@@ -1,11 +1,14 @@
-- dashboard: color_test
-  title: Color Test
+- dashboard: color_test2
+  title: Color Test2
   layout: newspaper
   preferred_viewer: dashboards-next
   tile_size: 100
+
+  filters:
+
   elements:
-  - name: 'color_test'
-    title: 'Color Test'
+  - name: add_a_unique_name_1763517915
+    title: Untitled Visualization
     model: cm_2518_test
     explore: salary
     type: looker_column
@@ -41,6 +44,29 @@
     show_totals_labels: false
     show_silhouette: false
     totals_color: "#808080"
+    color_application:
+    collection_id: testing
+    custom:
+      id: 7723aecc-4351-8eb3-7bd3-e49f33701617
+      label: Custom
+      type: discrete
+      colors:
+      - "#F99D20"
+      - "#12B5CB"
+      - "#E52592"
+      - "#E8710A"
+      - "#F9AB00"
+      - "#7CB342"
+      - "#9334E6"
+      - "#80868B"
+      - "#079c98"
+      - "#A8A116"
+      - "#EA4335"
+      - "#FF8168"
+      options:
+      steps: 5
+    x_axis_zoom: true
+    y_axis_zoom: true
     hidden_pivots: {}
     show_row_numbers: true
     transpose: false
