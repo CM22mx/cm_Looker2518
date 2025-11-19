@@ -4,6 +4,7 @@ connection: "thelook"
 include: "/views/**/*.view.lkml"
 include: "/dashboards/*.dashboard.lookml"
 include: "/color_test.dashboard.lookml"
+include: "/Color_test2.dashboard.lookml"
 
 datagroup: cm_2518_test_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
