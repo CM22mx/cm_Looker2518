@@ -1,5 +1,5 @@
 project_name: "cm_2518_test"
-new_lookml_runtime: yes
+new_lookml_runtime: no
 
 # # Use local_dependency: To enable referencing of another project
 # # on this instance with include: statements
